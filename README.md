@@ -30,7 +30,7 @@ with a modern and minimal user interface optimized for both desktop and mobile.
 <h2>Run Locally</h2>
 <pre>
 <code>
-git clone https://github.com/amiralisalehik/Space-portfilo.git
+git clone https://github.com/amiralisalehik/My-Portfilo.git
 cd portfilo
 npm install
 npm run dev

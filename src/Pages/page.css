@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Croissant";
+  src: url("/public/font/Croissant/Croissant-Bold.ttf") format("truetype")
+
+}
+
+@font-face {
+  font-family: "Vazir";
+  src: url("/font/webfonts/Vazirmatn-Bold.woff2") format("woff2")
+
+}
+
+@font-face {
+  font-family: "tahriri";
+  src: url("/font/tahriri/wmTahriri.woff2") format("woff2")
+
+}

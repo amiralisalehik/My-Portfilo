@@ -5,6 +5,7 @@
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
 
+  --color-mybackground: hsl(var(--mybackground));
   --color-footer: hsl(var(--footer));
 
   --color-primary: hsl(var(--primary));
@@ -69,7 +70,9 @@
     --background: 198, 43%, 90%;
     --foreground: 222 47% 11%;
 
-    --footer:246, 100%, 99%;
+    --mybackground: 196%, 67%, 45%;
+
+    --footer: 246, 100%, 99%;
 
     --card: 0 0% 100%;
 
@@ -85,7 +88,9 @@
 
     --card: 222 47% 8%;
 
-    --footer : 246, 100%, 0%;
+    
+    --mybackground: 200%, 43%, 3%;
+    --footer: 246, 100%, 0%;
 
     --primary: 250 65% 65%;
     --primary-foreground: 213 31% 91%;

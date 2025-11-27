@@ -1,6 +1,5 @@
 import { Code, CodeIcon } from "lucide-react";
 
-//just random comment
 
 export const AboutSection = () => {
   return (
@@ -30,7 +29,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="/public/resome.pdf"
+                href="/resome.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
@@ -62,7 +61,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">UI/UX Design</h4>
                   <p className="font-muted-foreground">
-                   Designing intuitive user interfaces and seamless user
+                    Designing intuitive user interfaces and seamless user
                     experiences.
                   </p>
                 </div>

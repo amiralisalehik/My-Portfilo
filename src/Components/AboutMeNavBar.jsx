@@ -4,14 +4,11 @@ import { Menu, X } from "lucide-react";
 import {Link} from "react-router-dom"
 
 const navItems = [
-  { name: "Home", href: "#hero" },
-  { name: "About", href: "#about" },
-  { name: "Skills", href: "#skills" },
-  { name: "Projects", href: "#project" },
-  { name: "Contact", href: "#contact" },
+  { name: "Home", href: "/" },
+ 
 ];
 
-export const Navbar = () => {
+export const AboutMeNavBar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -67,13 +64,13 @@ export const Navbar = () => {
         {/* desktop nav */}
         <div className="hidden md:flex space-x-8">
           {navItems.map((item, key) => (
-            <a
+            <Link
               key={key}
-              href={item.href}
+              to={item.href}
               className="text-foreground/80 hover:text-primary transition-color duration-300"
             >
               {item.name}
-            </a>
+            </Link>
           ))}
 
           <Link to="/AboutMe">more about me</Link>
@@ -102,14 +99,14 @@ export const Navbar = () => {
         >
           <div className="flex flex-col space-y-8 text-xl">
             {navItems.map((item, key) => (
-              <a
+              <Link
                 key={key}
-                href={item.href}
+                to={item.href}
                 className="text-foreground/80 hover:text-primary transition-color duration-300"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.name}
-              </a>
+              </Link>
             ))}
             <Link to="/AboutMe">more about me</Link>
           </div>

@@ -1,4 +1,4 @@
-<h1>AmirAli Salehi – Space Themed Portfolio</h1>
+<h1>AmirAli Salehi – Stellar Portfolio</h1>
 
 <p>
 This project is a responsive, space-themed personal portfolio developed using 
